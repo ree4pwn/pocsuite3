@@ -803,11 +803,6 @@ def index_modules() -> list:
     :return list: list of found modules
     """
 
-    # def _index_modules(path: str) -> list:
-    #     modules = []
-    #     for root, dirs, files in os.walk(paths.POCSUITE_POCS_PATH):
-    #         _, package, root = root.rpartition
-
     modules = []
     for root, dirs, files in os.walk(paths.POCSUITE_POCS_PATH):
         # _, package, root = root.rpartition("pocsuite3/pocs/".replace("/", os.sep))
