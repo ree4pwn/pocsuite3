@@ -803,9 +803,15 @@ def index_modules() -> list:
     :return list: list of found modules
     """
 
+    # def _index_modules(path: str) -> list:
+    #     modules = []
+    #     for root, dirs, files in os.walk(paths.POCSUITE_POCS_PATH):
+    #         _, package, root = root.rpartition
+
     modules = []
     for root, dirs, files in os.walk(paths.POCSUITE_POCS_PATH):
-        _, package, root = root.rpartition("pocsuite3/pocs/".replace("/", os.sep))
+        # _, package, root = root.rpartition("pocsuite3/pocs/".replace("/", os.sep))
+        root = root.replace("/", os.sep)
         files = filter(lambda x: not x.startswith("__") and x.endswith(".py"), files)
         modules.extend(map(lambda x: os.sep.join((root, os.path.splitext(x)[0])), files))
 
