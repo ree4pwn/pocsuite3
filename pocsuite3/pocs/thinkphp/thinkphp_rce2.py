@@ -18,7 +18,7 @@ class DemoPOC(POCBase):
     vulDate = '2019-1-11'
     createDate = '2019-1-11'
     updateDate = '2019-1-11'
-    references = ['https://www.seebug.org/vuldb/ssvid-97765']
+    references = ['https://www.seebug.org/vuldb/ssvid-97767']
     name = 'Thinkphp 5.0.x 远程代码执行漏洞'
     appPowerLink = 'http://www.thinkphp.cn/'
     appName = 'thinkphp'
