@@ -8,9 +8,9 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
 
 ## PoC Collection
 
-[] ThinkPHP
-    [x] thinkphp_rce 5.0.0-22 5.1.0-30 RCE
-    [] thinkphp_rce2 5.0.0-23 RCE
-[] Weblogic
-[] Struts2
-[] WordPress
+- [ ] ThinkPHP
+    - [X] thinkphp_rce 5.0.0-22 5.1.0-30 RCE
+    - [ ] thinkphp_rce2 5.0.0-23 RCE
+- [ ] Weblogic
+- [ ] Struts2
+- [ ] WordPress
