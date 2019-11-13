@@ -451,7 +451,7 @@ class PocsuiteInterpreter(BaseInterpreter):
     @module_required
     def _show_info(self, *args, **kwargs):
         fields = ["name", "VulID", "version", "author", "vulDate", "createDate", "updateDate", "references",
-                  "appPowerLink", "appName", "appVersion", "vulType", "desc"]
+                  "appPowerLink", "appName", "appVersion", "vulType", "desc", "pocDesc"]
         msg = ""
         for field in fields:
             value = getattr(self.current_module, field, None)
