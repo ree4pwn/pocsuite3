@@ -12,7 +12,7 @@ from pocsuite3.lib.utils import random_str
 
 
 class DemoPOC(POCBase):
-    vulID = '97207 CVE-2018-7600'  # ssvid
+    vulID = 'SSVID-97207 CVE-2018-7600'  # ssvid
     version = '1.0'
     author = ['seebug', 'cz']
     vulDate = '2018-03-08'
