@@ -30,7 +30,7 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
 
 ## TODO
 
-- [ ] 在POC info显示中增加已测试环境
+- [X] 在POC info显示中增加已测试环境
 - [ ] 增加默认自定义header功能
-- [ ] 增加pocDesc红色高亮
-- [ ] 与![webshell-venom](https://github.com/yzddmr6/webshell-venom)结合
+- [X] 增加pocDesc红色高亮
+- [ ] 与[webshell-venom](https://github.com/yzddmr6/webshell-venom)结合
