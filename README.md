@@ -17,6 +17,7 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
     - [ ] thinkphp_rce2 5.0.0-23 RCE
 - [ ] Weblogic
 - [ ] Struts2
+    - [X] struts2_s2_001_rce
 - [ ] WordPress
     - [X] wordpress_cve_2016_10033_rce
 
