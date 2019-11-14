@@ -19,3 +19,8 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
 - [ ] Struts2
 - [ ] WordPress
     - [X] wordpress_cve_2016_10033_rce
+
+## TODO
+
+- [ ] 在POC info显示中增加已测试环境
+- [ ] 增加默认自定义header功能
