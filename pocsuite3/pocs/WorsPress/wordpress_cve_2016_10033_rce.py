@@ -127,7 +127,7 @@ class DemoPOC(POCBase):
         if result:
             output.success(result)
         else:
-            output.fail()
+            output.fail('target is not vulnerable')
         return output
 
 register_poc(DemoPOC)
