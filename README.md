@@ -6,8 +6,15 @@
 
 More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsuite3).
 
+## Useage
+
+默认情况下`attack`是上传一句话木马，特殊情况会在`show info`中说明。
+
 ## PoC Collection
 
+- [ ] Discuz
+    - [ ] discuzX_ssv_91879_ssrf
+    - [X] discuz_ssv_93726_rce
 - [ ] Drupal
     - [ ] drupal_cve_2017_6229_rce
     - [X] drupal_cve_2018_7600_rce
@@ -25,3 +32,5 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
 
 - [ ] 在POC info显示中增加已测试环境
 - [ ] 增加默认自定义header功能
+- [ ] 增加pocDesc红色高亮
+- [ ] 与![webshell-venom](https://github.com/yzddmr6/webshell-venom)结合

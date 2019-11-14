@@ -460,6 +460,8 @@ class PocsuiteInterpreter(BaseInterpreter):
                 # for name highlight
                 if field == "name":
                     value = colored(value, "green")
+                if field == 'pocDesc':
+                    value = colored(value, "red")
                 msg = msg + "%-20s %-10s\n" % (field, value)
         data_to_stdout("\n")
         data_to_stdout(msg)

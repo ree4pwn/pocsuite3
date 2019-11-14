@@ -3,6 +3,18 @@ import os, base64
 from pocsuite3.api import Output, POCBase, POC_CATEGORY, register_poc, requests, logger
 from pocsuite3.lib.utils import random_str
 
+# 'Result':{
+#    'DBInfo' :   {'Username': 'xxx', 'Password': 'xxx', 'Salt': 'xxx' , 'Uid':'xxx' , 'Groupid':'xxx'},
+#    'ShellInfo': {'URL': 'xxx', 'Content': 'xxx' },
+#    'FileInfo':  {'Filename':'xxx','Content':'xxx'},
+#    'XSSInfo':   {'URL':'xxx','Payload':'xxx'},
+#    'AdminInfo': {'Uid':'xxx' , 'Username':'xxx' , 'Password':'xxx' }
+#    'Database':  {'Hostname':'xxx', 'Username':'xxx',  'Password':'xxx', 'DBname':'xxx'},
+#    'VerifyInfo':{'URL': 'xxx' , 'Postdata':'xxx' , 'Path':'xxx'}
+#    'SiteAttr':  {'Process':'xxx'}
+#    'Stdout': 'result output string'
+# }
+
 class DemoPOC(POCBase):
     vulID = 'SSVID-97207 CVE-2018-7600'
     version = '1.0'
@@ -20,6 +32,7 @@ class DemoPOC(POCBase):
     samples = []
     install_requires = ['']
     pocDesc = ''
+    testedEnv = []
     category = POC_CATEGORY.EXPLOITS.WEBAPP
 
     def parse_output(self, result):
