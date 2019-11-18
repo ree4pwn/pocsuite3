@@ -19,6 +19,8 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
     - [ ] drupal_cve_2017_6229_rce
     - [X] drupal_cve_2018_7600_rce
     - [ ] drupal_cve_2019_6339_rce
+- [ ] Django
+    - [X] django_cve_2019_14234_sqli
 - [ ] ThinkPHP
     - [X] thinkphp_rce 5.0.0-22 5.1.0-30 RCE
     - [ ] thinkphp_rce2 5.0.0-23 RCE
