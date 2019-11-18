@@ -24,7 +24,7 @@ class DemoPOC(POCBase):
     appName = 'thinkphp'
     appVersion = 'thinkphp5.0.23'
     vulType = 'Code Execution'
-    desc = '''Thinphp团队在实现框架中的核心类Requests的method方法实现了表单请求类型伪装，默认为$_POST[‘_method’]变量，却没有对$_POST[‘_method’]属性进行严格校验，可以通过变量覆盖掉Requets类的属性并结合框架特性实现对任意函数的调用达到任意代码执行的效果。'''
+    desc = '''Thinphp团队在实现框架中的核心类Requests的method方法实现了表单请求类型伪装，默认为$_POST['_method']变量，却没有对$_POST['_method']属性进行严格校验，可以通过变量覆盖掉Requets类的属性并结合框架特性实现对任意函数的调用达到任意代码执行的效果。'''
     samples = []
     category = POC_CATEGORY.EXPLOITS.WEBAPP
 
