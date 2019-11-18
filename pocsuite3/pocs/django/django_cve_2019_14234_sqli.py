@@ -32,7 +32,7 @@ class DemoPOC(POCBase):
     desc = '''该漏洞需要开发者使用了JSONField/HStoreField，且用户可控queryset查询时的键名，在键名的位置注入SQL语句。Django自带的后台应用Django-Admin中就存在这样的写法。'''
     samples = []
     install_requires = ['']
-    pocDesc = 'Django-Admin中存在注入，同时前台也可能存在注入。由于没有回显，所以attack总会返回成功，请手工验证。'
+    pocDesc = 'Django-Admin中存在注入，同时前台也可能存在注入。由于没有回显，所以attack总会返回成功，请手工验证。由于命令执行是在DB服务器上运行，所以不一定能连出外网，同时该用户在win与linux下均为低权限用户。命令执行结果写在CURRENT_DB.cmd_exec.cmd_output中。'
     testedEnv = ['windows_10_x64-Django_2.2.3-POstgreSQL_9.6']
     category = POC_CATEGORY.EXPLOITS.WEBAPP
 
