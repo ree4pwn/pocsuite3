@@ -1,4 +1,5 @@
 import os, base64
+from collections import OrderedDict
 
 from pocsuite3.api import Output, POCBase, POC_CATEGORY, register_poc, requests, logger
 from pocsuite3.lib.utils import random_str
@@ -44,7 +45,8 @@ class DemoPOC(POCBase):
         return output
 
     def _options(self):
-        pass
+        o = OrderedDict() 
+        return o
 
     def _verify(self):
         result = {}
