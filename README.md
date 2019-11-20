@@ -24,6 +24,8 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
 - [ ] ThinkPHP
     - [X] thinkphp_rce 5.0.0-22 5.1.0-30 RCE
     - [ ] thinkphp_rce2 5.0.0-23 RCE
+- [ ] ThinkCMFX
+    - [X] thinkcmfx_lfi
 - [ ] Weblogic
 - [ ] Struts2
     - [X] struts2_s2_001_rce
@@ -31,6 +33,8 @@ More basic informatin please visit [pocsuite3](https://github.com/knownsec/pocsu
     - [X] wordpress_cve_2016_10033_rce
 - [ ] Zabbix
     - [X] zabbix_cve_2016_10134_sqli
+- [ ] Shiro
+    - [ ] shiro_shiro_721_rce
 
 ## TODO
 
